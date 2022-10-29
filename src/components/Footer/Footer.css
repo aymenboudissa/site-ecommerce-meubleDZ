@@ -1,0 +1,11 @@
+
+footer{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    background-color: #222222;
+    padding: 2rem;
+}
+.meuble{
+    color: var(--clr-primary-4);
+}

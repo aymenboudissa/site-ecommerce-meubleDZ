@@ -1,0 +1,132 @@
+.header {
+  width: 100%;
+  box-shadow: var(--light-shadow);
+  background-color: white;
+}
+.container__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  width: 100%;
+}
+
+.header__lists {
+  display: flex;
+  flex-direction: row;
+
+  height: fit-content;
+  gap: 2rem;
+}
+.header__lists-list a {
+  color: rgb(59, 56, 56);
+  font-size: 1rem;
+  font-weight: 400;
+}
+.header__lists-list {
+  cursor: pointer;
+  /* transition: all 200ms ease; */
+  padding-bottom: 5px;
+  border-bottom: 2px solid transparent;
+}
+.header__lists-list:hover {
+  border-bottom: 2px solid var(--clr-primary-5);
+}
+.logo img {
+  height: 3rem;
+  width: 10rem;
+}
+.btn__list.d-none {
+  display: none;
+}
+.header-sm.d-none {
+  display: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+}
+.close {
+  margin-top: 1rem;
+  font-size: 2rem;
+  color: rgb(217, 44, 44);
+  font-weight: bold;
+  cursor: pointer;
+}
+.header-sm {
+  display: none;
+}
+.close {
+  display: none;
+}
+.container__header.d-none {
+  display: none;
+}
+@media screen and (max-width: 1024px) {
+  .navbar.vh {
+    padding: 0 2rem;
+    width: 100vw;
+    height: 100vh;
+    transition: all 500ms ease-out;
+  }
+  .container__header {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .container__header.d-bolck {
+    transition: all 500ms ease-out;
+    display: block;
+  }
+
+  .header__lists {
+    margin-top: 2rem;
+    flex-direction: column;
+    width: 100%;
+  }
+  .header__lists-list {
+    transition: all 400ms ease;
+    padding: 0.6rem 0 0.6rem 0;
+  }
+  .header__lists-list:hover {
+    padding-left: 1rem;
+    border-bottom: 2px solid transparent;
+    background-color: var(--clr-grey-9);
+    border-radius: 0.3rem;
+  }
+
+  .header-sm {
+    transition: all 400ms ease;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header-sm.d-none {
+    display: none;
+  }
+  .btn__list.d-none {
+    color: var(--clr-primary-5);
+    font-size: 3rem;
+    display: block;
+    cursor: pointer;
+  }
+  .close.d-block {
+    display: block;
+  }
+  /* section{margin-top: 6rem;} */
+}
+
+/* ====================== MEDIA Queries (SMALL DEVICES)================== */
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+  /* section > h2 {margin-bottom: 2rem;} */
+}
