@@ -75,7 +75,7 @@ img {
     margin-bottom: 1.5rem;
   }
   .image__top img {
-    height: 50%;
+    height: 15rem;
   }
   .images__bottom img {
     width: 4rem;
@@ -92,6 +92,9 @@ img {
     justify-content: flex-start;
   }
   .product__detail {
+    margin-top: 1rem;
+  }
+  .images__bottom {
     margin-top: 1rem;
   }
   .product__abouts .product__title {
