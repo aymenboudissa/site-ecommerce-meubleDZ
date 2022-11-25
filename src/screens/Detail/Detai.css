@@ -71,6 +71,9 @@ img {
   }
 }
 @media screen and (max-width: 600px) {
+  .btn__back {
+    margin-bottom: 1.5rem;
+  }
   .image__top img {
     height: 50%;
   }
@@ -80,5 +83,8 @@ img {
   }
   .product__images {
     gap: 2.5rem;
+  }
+  .product__abouts {
+    gap: 2.3rem;
   }
 }
