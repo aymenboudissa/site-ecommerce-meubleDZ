@@ -43,7 +43,7 @@ function Contact() {
             placeholder="Your Message"
             rows="7"
           ></textarea>
-          <button type="submit" className="btn btn-primary">
+          <button type="submit" id="sendMargin" className="btn btn-primary">
             Send Message
           </button>
         </form>
