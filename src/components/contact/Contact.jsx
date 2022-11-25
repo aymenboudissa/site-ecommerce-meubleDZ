@@ -23,7 +23,7 @@ function Contact() {
   return (
     <section id="page__contact">
       <div className="container contact__container ">
-        <form ref={form} onSubmit={sendEmail}>
+        <form ref={form} onSubmit={sendEmail} className="form">
           <input
             type="text"
             name="name"
