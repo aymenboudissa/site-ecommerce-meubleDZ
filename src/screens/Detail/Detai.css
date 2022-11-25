@@ -90,7 +90,7 @@ img {
   .product__detail {
     margin-top: 1rem;
   }
-  .product__title {
+  .product__abouts .product__title {
     font-size: 1.5rem;
   }
 }
