@@ -272,4 +272,7 @@
     flex-direction: column;
     gap: 2rem;
   }
+  .btn-contact {
+    margin-top: 1.4rem;
+  }
 }
