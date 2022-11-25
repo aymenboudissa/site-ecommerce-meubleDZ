@@ -87,4 +87,10 @@ img {
   .product__abouts {
     gap: 2.3rem;
   }
+  .product__detail {
+    margin-top: 1rem;
+  }
+  .product__title {
+    font-size: 1.5rem;
+  }
 }
