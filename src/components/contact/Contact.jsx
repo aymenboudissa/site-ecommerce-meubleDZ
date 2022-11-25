@@ -23,14 +23,20 @@ function Contact() {
   return (
     <section id="page__contact">
       <div className="container contact__container ">
-        <form ref={form} onSubmit={sendEmail} className="form">
+        <form ref={form} onSubmit={sendEmail}>
           <input
             type="text"
             name="name"
             placeholder="Your Full name"
             required
           />
-          <input type="email" name="email" placeholder="Your Email" required />
+          <input
+            id="email"
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            required
+          />
           <textarea
             name="message"
             id=""
