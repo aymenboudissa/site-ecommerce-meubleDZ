@@ -85,7 +85,8 @@ img {
     gap: 2.5rem;
   }
   .product__abouts {
-    gap: 2.3rem;
+    margin-top: 2rem;
+    gap: 2.5rem;
   }
   .product__detail {
     margin-top: 1rem;
